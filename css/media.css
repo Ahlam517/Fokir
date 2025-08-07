@@ -1,0 +1,86 @@
+/* xs */
+@media (max-width: 640px ){}
+/* sm */
+@media (max-width: 768px){
+
+}
+/* md */
+@media (max-width: 1024px){
+    .container{
+        width: 90%;
+    }
+    nav .nav-links{
+        display: none;
+    }
+
+nav .page-link{
+    padding: 15px;;
+}
+.hello h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 150px;
+    
+}
+.hello h1{
+    color: var(--main-color);
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.hello h4{
+    font-size: 20px;
+    padding-right: 0;
+}
+
+.about-right,.about-img{
+    width: 100%;
+}
+.about{
+    width: 100%;
+}
+.about-right{
+    padding-left: 0px;
+}
+.about-right .btns,.join{
+    width: 100%;
+}
+.about-right .btn1,.about-right .btn2{
+    width: 50%;
+     padding: 10px 0px 10px  5px;
+}
+
+.services-item,.four-item,.inner,.blog-item,form{
+    width: 100%;
+}
+
+.btn{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.fb-img,.fb-item{
+    width: 100%;
+}
+.fb-img::after{
+    top: -49px;
+    left: -144px;
+ }
+.fb-item{
+    margin-top: 40%;
+}
+.fb-item h4,.fb-item h3{
+    margin:  0;
+}
+
+.dots{
+    display: none;
+}
+}
+    
+/* lg */
+@media (max-width: 1280px){
+/* xl */
+@media (max-width: 1536px){}
+/*  */
