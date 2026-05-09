@@ -1,9 +1,6 @@
 /* xs */
 @media (max-width: 640px ){}
-/* sm */
-@media (max-width: 768px){
 
-}
 /* md */
 @media (max-width: 1024px){
     .container{
@@ -34,7 +31,7 @@ nav .page-link{
 }
 
 .about-right,.about-img{
-    width: 100%;
+    width: 45%;
 }
 .about{
     width: 100%;
@@ -51,7 +48,7 @@ nav .page-link{
 }
 
 .services-item,.four-item,.inner,.blog-item,form{
-    width: 100%;
+    width: 50%;
 }
 
 .btn{
@@ -60,16 +57,15 @@ nav .page-link{
     padding: 10px 0px;
 }
 
-.fb-img,.fb-item{
+
+.fb-img img{
     width: 100%;
 }
 .fb-img::after{
-    top: -49px;
-    left: -144px;
+    top: 0px;
+    left: 0px;
  }
-.fb-item{
-    margin-top: 40%;
-}
+
 .fb-item h4,.fb-item h3{
     margin:  0;
 }
@@ -77,10 +73,37 @@ nav .page-link{
 .dots{
     display: none;
 }
+.about-right .btns{
+    display: none;
 }
+}
+  /* sm */
+@media (max-width: 768px){
+    .fb-img, .fb-item{
+    width: 100%;
+    margin: 150px auto;
+}
+.fb-img img{
+    width: 200px;
+}
+.about-right,.about-img{
+    width: 100%;
+}
+.about{
+    width: 100%;
+}
+
+.services-item,.four-item,.inner,.blog-item,form{
+    width: 100%;
+}
+.hello h3{
+    margin-top:50%;
     
+}
+
+}  
 /* lg */
-@media (max-width: 1280px){
+@media (max-width: 1280px){}
 /* xl */
 @media (max-width: 1536px){}
 /*  */
